@@ -36,3 +36,11 @@ Este archivo funciona como una base de datos simulada y es consumido mediante pe
 ---
 
 ## 📁 Estructura del proyecto
+
+moodflow/
+│── index.html
+│── style.css
+│── script.js
+│
+└── data/
+└── moods.json
