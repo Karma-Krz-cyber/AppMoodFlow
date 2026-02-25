@@ -38,9 +38,57 @@ Este archivo funciona como una base de datos simulada y es consumido mediante pe
 ## 📁 Estructura del proyecto
 
 moodflow/
+
 │── index.html
+
 │── style.css
+
 │── script.js
+
 │
+
 └── data/
+
 └── moods.json
+
+
+---
+
+## 🌓 Modo oscuro
+
+MoodFlow incluye un botón para alternar entre modo claro y modo oscuro.  
+La preferencia del usuario se guarda en `localStorage`, asegurando que el tema seleccionado se mantenga al recargar la página.
+
+---
+
+## 🖥️ Despliegue
+
+La aplicación puede ejecutarse correctamente en:
+
+- Servidor local (Live Server)
+- GitHub Pages
+
+> **Nota:** Debido al uso de `fetch`, la aplicación no funciona correctamente si se abre el archivo HTML directamente con doble clic.
+
+---
+
+## 📦 Formato de entrega
+
+- Repositorio Git público
+- Página desplegada en internet (GitHub Pages)
+- Archivos organizados en estructura clara
+- Código comentado y estructurado
+- Documentación completa (README)
+
+---
+
+## ✨ Originalidad
+
+MoodFlow fue diseñada y desarrollada como una solución original, enfocada en el bienestar emocional y el aprendizaje práctico del desarrollo de aplicaciones web en la nube, sin reutilizar plantillas ni proyectos previamente existentes.
+
+---
+
+## 👤 Autor
+
+Rodrigo Alejandro
+Proyecto desarrollado con fines académicos para la materia **Desarrollo de Aplicaciones en la Nube / Web**.
