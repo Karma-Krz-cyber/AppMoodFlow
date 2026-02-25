@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MoodFlow – Diario Emocional</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+
+   <!-- HEADER -->
+  <header>
+  <h1>MoodFlow</h1>
+  <p>Registra y comprende tu estado emocional día a día</p>
+
+  <!-- Botón modo oscuro -->
+  <button id="toggleTheme" aria-label="Cambiar modo de color">
+    🌙
+  </button>
+</header>
+
+  <!-- MAIN -->
+  <main>
+
+    <!-- REGISTRO EMOCIONAL -->
+    <section id="registro">
+      <h2>Registro emocional</h2>
+
+      <form id="moodForm">
+        <label for="mood">Estado de ánimo</label>
+        <select id="mood" required>
+          <option value="">Selecciona una opción</option>
+          <option value="feliz">😊 Feliz</option>
+          <option value="normal">😐 Normal</option>
+          <option value="triste">😔 Triste</option>
+          <option value="enojado">😡 Enojado</option>
+          <option value="cansado">😴 Cansado</option>
+        </select>
+
+        <label for="note">Nota personal</label>
+        <textarea
+          id="note"
+          rows="4"
+          placeholder="¿Cómo te sentiste hoy? ¿Qué ocurrió?"
+        ></textarea>
+
+        <button type="submit">Guardar estado emocional</button>
+      </form>
+    </section>
+
+    <!-- MENSAJE DEL DÍA (FRASE FIJA) -->
+    <section id="api">
+      <h2>Mensaje del día</h2>
+      <p>
+        Hoy me doy permiso para sentir lo que sea que surja, sin juzgarlo.
+        Mis emociones son mensajeras, no enemigas; me enseñan qué necesito
+        y dónde poner límites. Hoy elijo ser amable conmigo mism@,
+        reconociendo mi esfuerzo y soltando la necesidad de ser perfect@.
+      </p>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>Proyecto académico – Desarrollo de aplicaciones en la nube</p>
+  </footer>
+
+  <!-- JS -->
+  <script src="js/script.js"></script>
+
+</body>
+</html>
